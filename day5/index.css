@@ -1,0 +1,18 @@
+header {
+    text-align: center;
+    background-color: bisque;
+}
+
+
+#products-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+#products-container div{
+  background-color: #b93c3c;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
